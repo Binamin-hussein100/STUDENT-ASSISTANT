@@ -1,4 +1,21 @@
-/* .btn1 {
-    height: 400px;
-} */
+body{
+    margin: 0;
+    padding: 0;
+}
 
+button{
+    width: 70%;
+    height: 7vh;
+    padding: ;
+    border: groove 10px;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+.container {
+        padding: 10px 10px;
+        align-items: center;
+        display: block;
+        justify-content: center;
+
+}
