@@ -46,3 +46,37 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
+
+/* Querry Page */
+.queryPage{
+    width: 70%;
+    margin: 0px auto;
+    position: relative;
+    left: 7.5%;
+    
+}
+
+.queryPage  button{
+    width: 100%;
+    padding: 10px;
+}
+
+
+/*  QUERRY COLLECTOR FORM */
+#askQuestion{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#askQuestion > input[type = "text"]{
+    height: 20px;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+/* QUESTIONS */
+#quiz{
+    color:rgb(36, 35, 35);
+    text-decoration: underline;
+}
