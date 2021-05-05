@@ -4,17 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>student resource</title>
+    <title>STUDENT RESOURCES</title>
     <link rel="stylesheet" href="resource.css">
+    <script src="./resource.js"></script>
 </head>
 <body>
-    <div>
-        <div class="buttons">
-            <button class="btn1">ONLINE IDE's</button>
-            <button class="btn2">DOWNLOADS</button>
-            <button class="btn3">NOTES RESOURCE</button>
-            <button class="btn4">YOUTUBE</button>
-         </div>
+    <div class="container">
+            
+            <button onclick="show_hide()">INTERGRATED DEVELOPMENT ENVIROMENT(IDEs)</button>
+                <div>
+                    <ul id="bin">
+                        <li><a rel="#">Amethyst 2</a></li>
+                        <li><a rel="#">Android studio</a></li>
+                        <li><a rel="#">Anjuta Devstudio</a></li>
+                        <li><a rel="#">Appbuilder</a></li>
+                        <li><a rel="#">Aptanastudio</a></li>
+                        <li><a rel="#">Atom</a></li>
+                        
+                    </ul>
+                </div>
+                
+                <button onclick="click_hide()">DOWNLOADS</button>
+                <div>
+                        <ul id="more">
+                            <li>CHROME</li>
+                            <li>VScode</li>
+                            <li>SLACK</li>
+                            <li>GOOGLE SHEET</li>
+                        </ul>
+                </div>
+            <div>
+                <button onclick="show_hide()">RESOURCE NOTES</button>
+                <ul id="dev">
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Block/CSS" >MDN WEB DOCS</a></li>
+                    <li><a href="https://devdocs.io/">DEVDOCS</a></li>
+                    <li><a href="https://www.coursera.org/">COUSERA</a></li>
+                    <li><a href="https://www.w3schools.com/">W3SCHOOL</a></li>
+                </ul>
+            </div>
+            <div>
+                <button onclick="show_hide()">CODING PLAYGROUNDS</button>
+                <ul>
+                    <li><a href="https://jsfiddle.net/">JS FIDDLE</a></li>
+                    <li><a href="https://replit.com/">REPL.IT</a></li>
+                    <li><a href="https://playcode.io/">PLAYCODE</a></li>
+                    <li><a href="https://code.sololearn.com/cVRUy2BwauK8">SOLOLEARN</a></li>
+                </ul>
+            </div>
     </div>
 </body>
 </html>
