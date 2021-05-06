@@ -1,0 +1,36 @@
+nav{
+  background-color: rgb(36, 35, 35);
+  background-position: fixed;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+nav ul {
+  width: 100%;
+  margin: 0px;
+}
+nav ul li {
+  list-style: none;
+  color: white;
+  padding: 40px 15px;
+  font-size: 12px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+.calender
+{
+  width: 70%; 
+  margin-top: 40px;
+}
+.mainContainer
+{
+  display: flex;
+  justify-content: space-between;
+  
+}
