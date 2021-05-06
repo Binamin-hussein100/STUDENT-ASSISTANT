@@ -40,6 +40,7 @@ h1{
     color: white;
     /* margin-left: 100px; */
     padding: 10px 80px;
+    width: 380px;
     
     
 
@@ -47,7 +48,7 @@ h1{
 
 input {
     height: 30PX;
-    width: 350PX;
+    width: 380PX;
     background-color: black;
     color: white;
 }
