@@ -8,16 +8,17 @@ button{
     height: 7vh;
     padding: ;
     border: groove 10px;
-    /* background-color: black; */
-    /* color: white; */
+    
+    
 }
 
 .container {
-        padding: 20px;
-        /* border: solid brown; */
+        padding: 40px;
         height: 100vh;
         width: 80%;
         float: right;
+        display: flex;
+        flex-direction: row;
         
      
 
@@ -25,7 +26,7 @@ button{
 
 .one{
     background-color: black;
-    width: 30%;
+    width: 50%;
     color: grey;
     height: 30vh;
     padding: 15px 15px;
@@ -37,34 +38,38 @@ button{
 }
 .two{
     background-color: black;
-    width: 30%;
+    width: 50%;
     color: grey;
    height: 30vh;
    padding: 15px 15px;
    border: groove 10px rgb(105, 101, 93);
    box-shadow: 0 0 5px 2.5px black;
     background-color: black;
+    margin-top: 110px;
   
 }
 .three{
     background-color: black;
-    width: 30%;
+    width: 50%;
     color: grey;
     padding: 20px;
     border: groove 10px rgb(105, 101, 93);
     box-shadow: 0 0 5px 2.5px black;
     background-color: black;
+    height: 30vh;
    
 
 }
 .four{
     background-color: black;
-    width: 30%;
+    width: 50%;
     color: grey;
     padding: 20px;
     border: groove 10px rgb(105, 101, 93);
     box-shadow: 0 0 5px 2.5px black;
     background-color: black;
+    height: 30vh;
+    margin-top: 110px;
    
 }
 
@@ -97,3 +102,9 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
+
+#black {
+    width: 50%;
+    
+}
+
