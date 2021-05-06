@@ -1,5 +1,6 @@
 body{
-    background-color: black;
+    padding: 0PX;
+    margin: 0px;
 }
 
 .container {
@@ -17,7 +18,7 @@ body{
     width: 400px;
     height: 400px;
     border: groove 20px rgb(105, 101, 93);
-    box-shadow: 0 0 5px 10px black;
+    box-shadow: 0 0 5px 2.5px gray;
     background-color: black;
     display: flex;
     /* align-items: center; */
@@ -39,6 +40,7 @@ h1{
     color: white;
     /* margin-left: 100px; */
     padding: 10px 80px;
+    width: 380px;
     
     
 
@@ -46,7 +48,7 @@ h1{
 
 input {
     height: 30PX;
-    width: 350PX;
+    width: 380PX;
     background-color: black;
     color: white;
 }
