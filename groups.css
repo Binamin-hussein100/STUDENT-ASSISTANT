@@ -45,21 +45,28 @@ nav ul li a{
     text-decoration: none;
 }
 
-/* GROUPS BUTTONS */
-.myGroups{
-    display: flex;
-    flex-direction: column;
-}
 
-.myGroups button{
-    padding: 20px 40px;
-    margin-bottom: 20px;
-}
 
 /* MY GROUPS */
 .myGroups{
     width: 70%;
-    margin: 40px auto;
+    margin: 0px auto;
     position: relative;
     left: 7.5%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
 }
+
+#students{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#para{
+    text-align: center;
+}
+
