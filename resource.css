@@ -1,4 +1,110 @@
-/* .btn1 {
-    height: 400px;
-} */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    width: 70%;
+    height: 7vh;
+    padding: ;
+    border: groove 10px;
+    
+    
+}
+
+.container {
+        padding: 40px;
+        height: 100vh;
+        width: 80%;
+        float: right;
+        display: flex;
+        flex-direction: row;
+        
+     
+
+}
+
+.one{
+    background-color: black;
+    width: 50%;
+    color: grey;
+    height: 30vh;
+    padding: 15px 15px;
+    border: groove 10px rgb(105, 101, 93);
+    box-shadow: 0 0 5px 2.5px black;
+    background-color: black;
+    
+
+}
+.two{
+    background-color: black;
+    width: 50%;
+    color: grey;
+   height: 30vh;
+   padding: 15px 15px;
+   border: groove 10px rgb(105, 101, 93);
+   box-shadow: 0 0 5px 2.5px black;
+    background-color: black;
+    margin-top: 110px;
+  
+}
+.three{
+    background-color: black;
+    width: 50%;
+    color: grey;
+    padding: 20px;
+    border: groove 10px rgb(105, 101, 93);
+    box-shadow: 0 0 5px 2.5px black;
+    background-color: black;
+    height: 30vh;
+   
+
+}
+.four{
+    background-color: black;
+    width: 50%;
+    color: grey;
+    padding: 20px;
+    border: groove 10px rgb(105, 101, 93);
+    box-shadow: 0 0 5px 2.5px black;
+    background-color: black;
+    height: 30vh;
+    margin-top: 110px;
+   
+}
+
+a :hover{
+    border: 1px rgb(107, 101, 101);
+}
+
+nav{
+    background-color: rgb(36, 35, 35);
+    background-position: fixed;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+nav ul {
+    width: 100%;
+    margin: 0px;
+}
+nav ul li {
+    list-style: none;
+    color: white;
+    padding: 40px 15px;
+    font-size: 12px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#black {
+    width: 50%;
+    
+}
 
