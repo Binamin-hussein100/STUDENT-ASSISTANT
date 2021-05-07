@@ -1,0 +1,90 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+.bodyContainer{
+    display: flex;
+ 
+}
+
+nav{
+    background-color: rgb(36, 35, 35);
+    background-position: fixed;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    font-size: 100%;
+    
+}
+
+nav ul {
+    width: 100%;
+    margin: 0px;
+    
+    
+}
+
+nav ul li {
+
+    list-style: none;
+    color: white;
+    padding: 40px 15px;
+    font-size: 12px;
+     
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Querry Page */
+.queryPage{
+    width: 70%;
+    margin: 0px auto;
+    position: relative;
+    left: 7.5%;
+    
+}
+
+.queryPage  button{
+    width: 100%;
+    padding: 10px;
+}
+
+
+/*  QUERRY COLLECTOR FORM */
+#askQuestion{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#askQuestion > input[type = "text"]{
+    height: 20px;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+/* QUESTIONS */
+#quiz{
+    color:rgb(36, 35, 35);
+    text-decoration: underline;
+}
+
+#students{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+}
