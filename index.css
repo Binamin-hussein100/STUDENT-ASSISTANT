@@ -47,6 +47,7 @@ h1{
     width: 380px;
     
     
+    
 
 }
 
@@ -68,4 +69,32 @@ input {
 #remember a {
     color: grey;
     margin-left: 10px;
+}
+
+/* #log {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+   
+ 
+    
+}
+
+#loginDiv {
+    width: 380px;
+    background-color: grey;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border: inset 3px rgb(105, 101, 93);
+    
+} */
+
+.btn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }

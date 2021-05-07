@@ -80,3 +80,11 @@ nav ul li a{
     color:rgb(36, 35, 35);
     text-decoration: underline;
 }
+
+#students{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+}
